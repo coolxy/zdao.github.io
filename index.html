@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>正道之心</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: 'SimSun', serif;
+        }
+        .title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .poem {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .line {
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            font-size: 24px;
+            line-height: 2;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin: 0 10px;
+            transition: transform 0.3s ease;
+        }
+        .line:hover {
+            transform: translateY(-10px);
+        }
+    </style>
+</head>
+<body>
+    <div class="title">正道之心</div>
+    <div class="poem">
+        <div class="line">天若有情天亦老</div>
+        <div class="line">人间正道是沧桑</div>
+    </div>
+</body>
+</html>
